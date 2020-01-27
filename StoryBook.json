@@ -1,0 +1,25 @@
+[{
+        "prompts": ["a name", "a noun", "adverb", "adjective"],
+        "story": "Once upon a time %s ate a %s flavoured sandwich which made him %s inside. It was a %s day."
+    },
+    {
+        "prompts": ["a number", "a vehicle", "a part of the body", "a family member"],
+        "story": "When I was a %s years old I had an accident driving my %s, and I broke my %s. My %s said 'Ah shit, here we go again'"
+    },
+    {
+        "prompts": ["a pop star (a male)", "way of greeting", "a place"],
+        "story": "Three weeks ago I was at the concert by %s, when I approached to the stage, he gave me a %s! I fainted and woke up the next day in %s."
+    },
+    {
+        "prompts": ["a sports event", "a city", "your friend's name", "a part of the clothes", "a feeling (an adjective)"],
+        "story": "During the %s final in %s, %s and I sat the closest to the pitch. The player scored a goal and pulled off his %s. It was a %s view."
+    },
+    {
+        "prompts": ["a day", "a name of the dish", "a number", "a name of the room"],
+        "story": "Last %s we had dinner with the whole family. Mike was carrying %s on a tray, stumbled and the contents of the tray flew %s meters away. I couldn't stop laughing! The whole %s was dirty!"
+    },
+    {
+        "prompts": ["a female's name", "a name of an activity (a noun)", "Your favourite game"],
+        "story": "I think the best reason that %s is the best in the world is because she knows how to %s and play %s perfectly."
+    }
+]
