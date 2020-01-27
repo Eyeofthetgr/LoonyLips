@@ -15,10 +15,18 @@ func _ready():
 
 
 func set_current_story():
-#	var stories = get_from_json("StoryBook.json")
+	var stories = get_from_json("StoryBook.json")
 	randomize()
 	current_story = stories[randi() % stories.size()]
 
+
+func get_from_json(filename):
+	var file = File.new()
+	file.open(filename, File.READ)
+	var text = file.get_as_text()
+	var data = parse_json(text)
+	file.close()
+	return data
 
 func _on_PlayerText_text_entered(new_text):
 	add_to_player_words()
