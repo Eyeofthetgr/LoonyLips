@@ -18,7 +18,3 @@ _global_script_class_icons={
 config/name="Loony_Lips - Szalone_usta"
 run/main_scene="res://LoonyLips.tscn"
 config/icon="res://icon.png"
-
-[rendering]
-
-environment/default_environment="res://default_env.tres"
